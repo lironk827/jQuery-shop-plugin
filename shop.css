@@ -1,0 +1,167 @@
+
+body{
+    margin-top: 0;
+}
+
+.container a {
+    text-transform:capitalize;
+    margin:0 1px;
+}
+
+.container{
+    padding: 0;
+    margin-top: 5px;
+}   
+
+.priceLabel{
+    font-size: 12px;
+}
+
+.mainWrapper{
+   width:80%;
+   display: flex;
+   flex-direction: column;
+   margin:auto;
+}
+
+.mainWrapper h1{
+    background: #6495ED;
+    text-align: left;
+    opacity: 0.9;
+    width:100%;
+    margin:0;
+    box-sizing: border-box;
+    padding: 10px ;
+}
+
+
+.fixedTable{
+    position: fixed;
+    margin: auto;
+    top :0;
+    right:0;
+    width:35%;
+}
+
+
+.cartContainer {
+    width: 35%;
+}
+
+#bottomBorderDiv{
+  width:100%;
+  height:50px;
+  padding: 0;
+  margin: 0;
+}
+
+.cartTable {
+  background: #6495ED;
+  width: 100%;
+  border-radius: 4px;
+  border:1px black solid;
+  margin: auto;
+  padding: 5px;
+}
+
+.addDollarSign:before{
+    content: "$";
+    font-size:16px;
+}
+
+.addToCart{
+    margin-right:2px;
+    margin-bottom:2px;
+    padding:0px;
+}
+
+.shopWrapper{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px  0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.singleProduct{
+    box-sizing: border-box;
+    flex-basis: 25%;
+    margin:0 5px 5px 5px ;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border-right: 3px solid #e6e6e6;
+    border-bottom: 3px solid #e6e6e6;
+    border-radius: 3px; 
+}
+
+.singleProduct h4 {
+    text-align: center;
+}
+.singleProduct img{
+    width:100%;
+}
+.singleProduct div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.singleProduct h3{
+  text-align: center;
+}
+
+.singleProduct div label{
+  color:gray;
+}
+
+
+.cartTable thead tr th {
+  font-size: 25px;
+  text-align: center;
+}
+
+.itemRow td{
+    text-align: center;
+}
+
+.removeItemButton{
+    height: 20px;
+    width: 20px;
+    color:black;
+    background:white;
+    border-radius: 60%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+
+.removeItemButton:hover{
+    background: red;
+    color: black;
+}
+
+.ItemQuantityInput{
+    width:30px;
+    padding: 0px;
+}
+
+#paypalLogo{
+    width:75%;
+    margin-left:  auto;
+    margin-right:  auto;
+}
